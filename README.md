@@ -17,7 +17,10 @@ Step 2. Add the dependency
 	        implementation 'com.github.XURSHIDGAMER:Image-Slider:Tag'
 	}
 
+Step 3
 
+         minSdk 30
+	 
 Check permisssion
 
         <uses-permission android:name="android.permission.INTERNET"/>
