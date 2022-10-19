@@ -14,9 +14,9 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.XURSHIDGAMER:Image-Slider:Tag'
+	        implementation 'com.github.gold-devoloper:Image-Slider:Tag'
 	}
-
+	
 Step 3
 
          minSdk 30
