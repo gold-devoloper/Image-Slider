@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ImageSlider">
+        <attr name="gold_auto_cycle" format="boolean" />
+        <attr name="gold_corner_radius" format="integer" />
+        <attr name="gold_period" format="integer" />
+        <attr name="gold_delay" format="integer" />
+        <attr name="gold_placeholder" format="reference" />
+        <attr name="gold_error_image" format="reference" />
+        <attr name="gold_selected_dot" format="reference" />
+        <attr name="gold_unselected_dot" format="reference" />
+        <attr name="gold_title_background" format="reference" />
+        <attr name="gold_text_align" format="string"/>
+        <attr name="gold_indicator_align" format="string"/>
+    </declare-styleable>
+</resources>

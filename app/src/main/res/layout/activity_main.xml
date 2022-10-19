@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#505050"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <gold.uz.pro.ImageSlider
+        android:id="@+id/image_slider"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        app:gold_auto_cycle="true"
+        app:gold_period="1500"
+        app:gold_delay="0"
+        app:gold_text_align="CENTER"
+        app:gold_title_background="@drawable/gradient"
+        app:gold_error_image="@drawable/error"
+        app:gold_selected_dot="@drawable/horizontal_dot_selected"
+        app:gold_unselected_dot="@drawable/horizontal_dot_unselected"/>
+
+</LinearLayout>
